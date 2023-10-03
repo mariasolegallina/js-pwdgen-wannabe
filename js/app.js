@@ -22,10 +22,11 @@ console.log(userFavouriteColour);
 // - coincatenare il nome, il cognome e il colore preferito dell'utente con un valore numerico:
 //   - dichiarare una variabile che contiene il valore numerico
 let passwordNumber = "21";
-//   - dichiarare una variabile message dove concatenare le quattro stringhe
-//   - dichiarare una variabile con le quattro stringhe concatenate
+//   - dichiarare una variabile "passwordCombination" con le quattro stringhe concatenate
+let passwordCombination = userName + userLastname + userFavouriteColour + passwordNumber;
 
 // - stampare il messaggio dentro un p:
 //   - inserire nell'html un tag p con id="passwordCombination"
+
 //   - recuperare con js l'elementi del dom con id = "passwordCombination"
 //   - modificare l'innerHTML del p con il valore della variabile "passwordCombination"

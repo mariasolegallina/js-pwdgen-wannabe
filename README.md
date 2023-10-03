@@ -14,8 +14,7 @@
 
 - coincatenare il nome, il cognome e il colore preferito dell'utente con un valore numerico:
   - dichiarare una variabile che contiene il valore numerico
-  - dichiarare una variabile message dove concatenare le quattro stringhe
-  - dichiarare una variabile con le quattro stringhe concatenate
+  - dichiarare una variabile "passwordCombination" con le quattro stringhe concatenate
 
 - stampare il messaggio dentro un p:
   - inserire nell'html un tag p con id="passwordCombination"
