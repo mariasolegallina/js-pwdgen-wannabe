@@ -21,6 +21,7 @@ console.log(userFavouriteColour);
 
 // - coincatenare il nome, il cognome e il colore preferito dell'utente con un valore numerico:
 //   - dichiarare una variabile che contiene il valore numerico
+let passwordNumber = "21";
 //   - dichiarare una variabile message dove concatenare le quattro stringhe
 //   - dichiarare una variabile con le quattro stringhe concatenate
 
