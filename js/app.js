@@ -23,10 +23,13 @@ console.log(userFavouriteColour);
 //   - dichiarare una variabile che contiene il valore numerico
 let passwordNumber = "21";
 //   - dichiarare una variabile "passwordCombination" con le quattro stringhe concatenate
-let passwordCombination = userName + userLastname + userFavouriteColour + passwordNumber;
-
+let passwordCombination = " " + userName + userLastname + userFavouriteColour + passwordNumber;
+console.log("passwordCombination")
 // - stampare il messaggio dentro un p:
 //   - inserire nell'html un tag p con id="passwordCombination"
 
-//   - recuperare con js l'elementi del dom con id = "passwordCombination"
+//   - recuperare con js gli elementi del dom con id = "passwordCombination"
+const passwordCombinationDomElement = document.getElementById ("passwordCombination");
+console.dir("passwordCombinationDomElement");
 //   - modificare l'innerHTML del p con il valore della variabile "passwordCombination"
+passwordCombinationDomElement.innerHTML = passwordCombination
